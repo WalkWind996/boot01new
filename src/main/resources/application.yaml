@@ -1,0 +1,31 @@
+#普通配置语法
+server:
+  port: 8080
+##字面量语法
+#name: haha
+##对象语法 1.多行 2.行内
+#person:
+#  lastName: 张三
+#  age: 13
+#  boss: true
+#  birth: 2020/3/31
+#  maps: {userame: hha,age: 18}
+#  lists:
+#    - lisi
+#    - wangwu
+#    - maliu
+#  dog:
+#    name: xiaohua
+#    age: 1
+
+
+
+
+
+
+
+
+
+
+#数组list,set  1.多行 2.行内写法
+#配置person对象并注入到类的属性中对象属性包括(字面量,list,map,对象)
