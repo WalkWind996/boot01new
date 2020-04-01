@@ -9,9 +9,9 @@ import org.springframework.context.annotation.Configuration;
  * @Description
  * @Date 2020-3-31-17:17
  **/
-@Configuration
+@Configuration//标注该类为一个配置类
 public class myconfig {
-    @Bean
+    @Bean//将返回的值注入的spring容器中,值的引用为方法的名称:helloService
     public HelloService helloService(){
         return new HelloService();
     }
